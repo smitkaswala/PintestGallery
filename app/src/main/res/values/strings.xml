@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">PintestGallery</string>
+    <string name="app_launcher_name">Gallery</string>
+    <string name="edit">Edit</string>
+    <string name="open_camera">Open camera</string>
+    <string name="hidden">(hidden)</string>
+    <string name="excluded">(excluded)</string>
+    <string name="pin_folder">Pin folder</string>
+    <string name="unpin_folder">Unpin folder</string>
+    <string name="pin_to_the_top">Pin to the top</string>
+    <string name="show_all">Show all folders content</string>
+    <string name="all_folders">All folders</string>
+    <string name="folder_view">Switch to folder view</string>
+    <string name="other_folder">Other folder</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="unknown_location">Unknown location</string>
+    <string name="volume">Volume</string>
+    <string name="brightness">Brightness</string>
+    <string name="lock_orientation">Lock orientation</string>
+    <string name="unlock_orientation">Unlock orientation</string>
+    <string name="change_orientation">Change orientation</string>
+    <string name="force_portrait">Force portrait</string>
+    <string name="force_landscape">Force landscape</string>
+    <string name="use_default_orientation">Use default orientation</string>
+    <string name="fix_date_taken">Fix Date Taken value</string>
+    <string name="fixing">Fixing…</string>
+    <string name="dates_fixed_successfully">Dates fixed successfully</string>
+    <string name="no_date_takens_found">No Date Taken values have been found</string>
+    <string name="share_resized">Share a resized version</string>
+    <string name="switch_to_file_search">Switch to file search across all visible folders</string>
+    <string name="set_as_default_folder">Set as default folder</string>
+    <string name="unset_as_default_folder">Unset as default folder</string>
+    <string name="reorder_by_dragging">Reorder folders by dragging</string>
+    <string name="reorder_by_dragging_pro">Reorder folders by dragging (Pro)</string>
+    <string name="restore_to_path">Restoring to \'%s\'</string>
+
+    <!-- Filter -->
+    <string name="filter_media">Filter media</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="gifs">GIFs</string>
+    <string name="raw_images">RAW images</string>
+    <string name="svgs">SVGs</string>
+    <string name="portraits">Portraits</string>
+    <string name="no_media_with_filters">No media files have been found with the selected filters.</string>
+    <string name="change_filters_underlined"><u>Change filters</u></string>
+
+    <!-- Hide / Exclude -->
+    <string name="hide_folder_description">This function hides the folder by adding a \'.nomedia\' file into it, it will hide all subfolders too. You can see them by toggling the \'Show hidden items\' option in Settings. Continue?</string>
+    <string name="exclude_folder_description">This will exclude the selection together with its subfolders from Simple Gallery only. You can manage excluded folders in Settings.</string>
+    <string name="exclude_folder_parent">Exclude a parent instead?</string>
+    <string name="excluded_activity_placeholder">Excluding folders will make them together with their subfolders hidden just in Simple Gallery, they will still be visible in other applications.\n\nIf you want to hide them from other apps too, use the Hide function.</string>
+    <string name="hidden_folders">Hidden folders</string>
+    <string name="manage_hidden_folders">Manage hidden folders</string>
+    <string name="hidden_folders_placeholder">Seems like you don\'t have any folders hidden with a \".nomedia\" file.</string>
+    <string name="hidden_all_files">You have to grant the app All Files access to see hidden files, else it cannot work.</string>
+    <string name="cant_unhide_folder">If a folder or one of its parent folders has a dot before its name, it is hidden and cannot be unhidden like this. You have to remove the dot by renaming it.</string>
+
+    <!-- Include folders -->
+    <string name="include_folders">Included folders</string>
+    <string name="manage_included_folders">Manage included folders</string>
+    <string name="add_folder">Add folder</string>
+    <string name="included_activity_placeholder">If you have some folders which contain media, but were not recognized by the app, you can add them manually here.\n\nAdding some items here will not exclude any other folder.</string>
+    <string name="no_media_add_included">No media files have been found. You can solve it by adding the folders containing media files manually.</string>
+
+    <!-- Resizing -->
+    <string name="resize_and_save">Resize selection and save</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="keep_aspect_ratio">Keep aspect ratio</string>
+    <string name="invalid_values">Please enter a valid resolution</string>
+    <string name="resize_multiple_images">Resize multiple images</string>
+    <string name="resize_factor">Resize factor</string>
+    <string name="resize_factor_info">Resize images to the given percentage, value must be within 10 and 90.</string>
+    <string name="resize_factor_error">Enter a number between 10 and 90</string>
+    <plurals name="failed_to_resize_images">
+        <item quantity="one">Failed to resize %d image</item>
+        <item quantity="other">Failed to resize %d images</item>
+    </plurals>
+    <string name="images_resized_successfully">Images resized successfully</string>
+
+    <!-- Editor -->
+    <string name="editor">Editor</string>
+    <string name="basic_editor">Basic Editor</string>
+    <string name="advanced_editor">Advanced Editor</string>
+    <string name="rotate">Rotate</string>
+    <string name="invalid_image_path">Invalid image path</string>
+    <string name="invalid_video_path">Invalid video path</string>
+    <string name="image_editing_failed">Image editing failed</string>
+    <string name="video_editing_failed">Video editing failed</string>
+    <string name="image_editing_cancelled">Image editing cancelled</string>
+    <string name="video_editing_cancelled">Video editing cancelled</string>
+    <string name="file_edited_successfully">File edited successfully</string>
+    <string name="image_edited_successfully">Image edited successfully</string>
+    <string name="video_edited_successfully">Video edited successfully</string>
+    <string name="edit_image_with">Edit image with:</string>
+    <string name="edit_video_with">Edit video with:</string>
+    <string name="no_image_editor_found">No image editor found</string>
+    <string name="no_video_editor_found">No video editor found</string>
+    <string name="unknown_file_location">Unknown file location</string>
+    <string name="error_saving_file">Could not overwrite the source file</string>
+    <string name="rotate_left">Rotate left</string>
+    <string name="rotate_right">Rotate right</string>
+    <string name="rotate_one_eighty">Rotate by 180º</string>
+    <string name="transform">Transform</string>
+    <string name="crop">Crop</string>
+    <string name="draw">Draw</string>
+    <string name="flip">Flip</string>
+    <string name="flip_horizontally">Flip horizontally</string>
+    <string name="flip_vertically">Flip vertically</string>
+    <string name="free_aspect_ratio">Free</string>                  <!-- available as an option: 1:1, 4:3, 16:9, free -->
+    <string name="other_aspect_ratio">Other</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="set_as_wallpaper_failed">Setting as Wallpaper failed</string>
+    <string name="set_as_wallpaper_with">Set as wallpaper with:</string>
+    <string name="setting_wallpaper">Setting wallpaper&#8230;</string>
+    <string name="wallpaper_set_successfully">Wallpaper set successfully</string>
+    <string name="portrait_aspect_ratio">Portrait aspect ratio</string>
+    <string name="landscape_aspect_ratio">Landscape aspect ratio</string>
+    <string name="home_screen">Home screen</string>
+    <string name="lock_screen">Lock screen</string>
+    <string name="home_and_lock_screen">Home and lock screen</string>
+    <string name="allow_changing_aspect_ratio">Allow changing the aspect ratio</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow">Slideshow</string>
+    <string name="interval">Interval</string>
+    <string name="include_photos">Include photos</string>
+    <string name="include_videos">Include videos</string>
+    <string name="include_gifs">Include GIFs</string>
+    <string name="random_order">Random order</string>
+    <string name="move_backwards">Move backwards</string>
+    <string name="loop_slideshow">Loop slideshow</string>
+    <string name="animation">Animation</string>
+    <string name="no_animation">None</string>
+    <string name="fade">Fade</string>
+    <string name="slide">Slide</string>
+    <string name="slideshow_ended">The slideshow ended</string>
+    <string name="no_media_for_slideshow">No media for the slideshow have been found</string>
+
+    <!-- View types -->
+    <string name="group_direct_subfolders">Group direct subfolders</string>
+
+    <string name="autoplay_videos">Play videos automatically</string>
+    <string name="remember_last_video_position">Remember last video playback position</string>
+    <string name="loop_videos">Loop videos</string>
+    <string name="animate_gifs">Animate GIFs at thumbnails</string>
+    <string name="max_brightness">Max brightness when viewing fullscreen media</string>
+    <string name="crop_thumbnails">Crop thumbnails into squares</string>
+    <string name="show_thumbnail_video_duration">Show video durations</string>
+    <string name="screen_rotation_by">Rotate fullscreen media by</string>
+    <string name="screen_rotation_system_setting">System setting</string>
+    <string name="screen_rotation_device_rotation">Device rotation</string>
+    <string name="screen_rotation_aspect_ratio">Aspect ratio</string>
+    <string name="black_background_at_fullscreen">Black background at fullscreen media</string>
+    <string name="scroll_thumbnails_horizontally">Scroll thumbnails horizontally</string>
+    <string name="hide_system_ui_at_fullscreen">Automatically hide system UI at fullscreen media</string>
+    <string name="delete_empty_folders">Delete empty folders after deleting their content</string>
+    <string name="allow_photo_gestures">Allow controlling photo brightness with vertical gestures</string>
+    <string name="allow_video_gestures">Allow controlling video volume and brightness with vertical gestures</string>
+    <string name="show_media_count">Show folder media count on the main view</string>
+    <string name="show_extended_details">Show extended details over fullscreen media</string>
+    <string name="manage_extended_details">Manage extended details</string>
+    <string name="one_finger_zoom">Allow one finger zoom at fullscreen media</string>
+    <string name="allow_instant_change">Allow instantly changing media by clicking on screen sides</string>
+    <string name="allow_deep_zooming_images">Allow deep zooming images</string>
+    <string name="hide_extended_details">Hide extended details when status bar is hidden</string>
+    <string name="show_at_bottom">Show some action buttons at the bottom of the screen</string>
+    <string name="show_recycle_bin">Show the Recycle Bin at the folders screen</string>
+    <string name="deep_zoomable_images">Deep zoomable images</string>
+    <string name="show_highest_quality">Show images in the highest possible quality</string>
+    <string name="show_recycle_bin_last">Show the Recycle Bin as the last item on the main screen</string>
+    <string name="allow_down_gesture">Allow closing the fullscreen view with a down gesture</string>
+    <string name="allow_one_to_one_zoom">Allow 1:1 zooming in with two double taps</string>
+    <string name="open_videos_on_separate_screen">Always open videos on a separate screen with new horizontal gestures</string>
+    <string name="show_notch">Show a notch if available</string>
+    <string name="allow_rotating_gestures">Allow rotating images with gestures</string>
+    <string name="file_loading_priority">File loading priority</string>
+    <string name="speed">Speed</string>
+    <string name="compromise">Compromise</string>
+    <string name="avoid_showing_invalid_files">Avoid showing invalid files</string>
+    <string name="show_image_file_types">Show image file types</string>
+    <string name="allow_zooming_videos">Allow zooming videos with double tapping them</string>
+    <string name="folder_thumbnail_style">Folder thumbnail style</string>
+    <string name="file_thumbnail_style">File thumbnail style</string>
+    <string name="mark_favorite_items">Mark favorite items</string>
+    <string name="thumbnail_spacing">Thumbnail spacing</string>
+    <string name="show_file_count_line">Show file count on a separate line</string>
+    <string name="show_file_count_brackets">Show file count in brackets</string>
+    <string name="show_file_count_none">Do not show file count</string>
+    <string name="limit_folder_title">Limit long folder titles to 1 line</string>
+    <string name="square">Square</string>
+    <string name="rounded_corners">Rounded corners</string>
+    <string name="export_favorite_paths">Export favorites</string>
+    <string name="import_favorite_paths">Import favorites</string>
+    <string name="paths_imported_successfully">Paths imported successfully</string>
+    <string name="media_management_prompt">To make sure that all file operations work reliably, please make this app a Media management app in your device settings.</string>
+    <string name="password_protect_excluded">Password protect excluded folder visibility</string>
+    <string name="media_management_manual">Something went wrong, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media.</string>
+    <string name="media_management_note">If the redirection does not work, please go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media.</string>
+    <string name="media_management_alternative">If you do not want to do it, you can also go into your device Settings - Apps - Special app access - Media management apps and allow this app to manage media.</string>
+    <string name="alternative_media_access">Alternatively, you can allow accessing media files only. In that case you will not be able to work with hidden files though.</string>
+    <string name="media_only">Media only</string>
+    <string name="all_files">All files</string>
+    <string name="search_all_files">Search all files instead of folders on the main screen</string>
+    <string name="show_all_folders">Show a menu button for toggling Show All Folders Content quickly</string>
+
+    <string name="gif">GIF</string>
+    <string name="raw">RAW</string>
+    <string name="svg">SVG</string>
+    <string name="package_name">com.simplemobiletools.gallery.pro</string>
+
+    <!-- Release notes -->
+    <string name="release_369">Allow temporarily showing excluded folders on Android 11+</string>
+    <string name="release_327">
+        Adding some folder thumbnail customization at the app settings\n
+        Allow setting a default folder to be opened at app launch
+    </string>
+    <string name="release_295">Allow fast forwarding videos by double clicking on screen sides</string>
+    <string name="release_277">Fully replaced the photo editor with a powerful third party library (for resizing images use Menu -> Resize from the fullscreen view, until it gets added in the editor)</string>
+    <string name="release_258">
+        Allow customizing the bottom navigation bar color\n
+        Share files in the order they were selected
+    </string>
+    <string name="release_225">
+        Implemented export/importing for app settings and other preferences, like sorting\n
+        Allow hiding Notch on fullscreen view on Android 9+\n
+        Autosave images zoomed at the fullscreen view
+    </string>
+    <string name="release_221">
+        Allow drawing in the editor\n
+        Allow batch rotating images from the thumbnails view (proper thumbnail refreshing might need an app restart)\n
+        Allow sharing images directly from the editor\n
+        Allow zooming GIFs and videos
+    </string>
+    <string name="release_220">Reverted to the old way of opening videos, opening on separate screen can be enabled in the app settings</string>
+    <string name="release_217">
+        Rewrote video playback, use a separate screen + added fast-forwarding with horizontal swiping\n
+        Added optional 1:1 pixel ratio zooming with two double taps at fullscreen view\n
+        Allow adding Copy at the fullscreen bottom actions\n
+        Always include images at slideshows, never videos
+    </string>
+    <string name="release_213">
+        Added an initial widget implementation for creating homescreen folder shortcuts\n
+        Added optional grouping of direct subfolders, as a check at the \"Change view type\" dialog
+    </string>
+
+    <string name="upgraded_from_free_gallery">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your settings and favorites over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
+    <string name="ok">OK</string>
+    <string name="group_by">Group by</string>
+    <string name="no_items_found">No items found.</string>
+</resources>
